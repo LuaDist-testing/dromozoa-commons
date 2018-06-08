@@ -1,16 +1,16 @@
 -- This file was automatically generated for the LuaDist project.
 
 package = "dromozoa-commons"
-version = "1.41-1"
+version = "1.42-1"
 -- LuaDist source
 source = {
-  tag = "1.41-1",
+  tag = "1.42-1",
   url = "git://github.com/LuaDist-testing/dromozoa-commons.git"
 }
 -- Original source
 -- source = {
---   url = "https://github.com/dromozoa/dromozoa-commons/archive/v1.41.tar.gz";
---   file = "dromozoa-commons-1.41.tar.gz";
+--   url = "https://github.com/dromozoa/dromozoa-commons/archive/v1.42.tar.gz";
+--   file = "dromozoa-commons-1.42.tar.gz";
 -- }
 description = {
   summary = "Reusable Lua components";
@@ -64,7 +64,5 @@ build = {
     ["dromozoa.commons.visit"] = "dromozoa/commons/visit.lua";
     ["dromozoa.commons.word_block"] = "dromozoa/commons/word_block.lua";
     ["dromozoa.commons.write_file"] = "dromozoa/commons/write_file.lua";
-    ["dromozoa.commons.xml"] = "dromozoa/commons/xml.lua";
-    ["dromozoa.commons.xml_parser"] = "dromozoa/commons/xml_parser.lua";
   };
 }
