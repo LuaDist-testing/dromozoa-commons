@@ -1,16 +1,16 @@
 -- This file was automatically generated for the LuaDist project.
 
 package = "dromozoa-commons"
-version = "1.37-1"
+version = "1.38-1"
 -- LuaDist source
 source = {
-  tag = "1.37-1",
+  tag = "1.38-1",
   url = "git://github.com/LuaDist-testing/dromozoa-commons.git"
 }
 -- Original source
 -- source = {
---   url = "https://github.com/dromozoa/dromozoa-commons/archive/v1.37.tar.gz";
---   file = "dromozoa-commons-1.37.tar.gz";
+--   url = "https://github.com/dromozoa/dromozoa-commons/archive/v1.38.tar.gz";
+--   file = "dromozoa-commons-1.38.tar.gz";
 -- }
 description = {
   summary = "Reusable Lua components";
@@ -39,7 +39,6 @@ build = {
     ["dromozoa.commons.json"] = "dromozoa/commons/json.lua";
     ["dromozoa.commons.json_parser"] = "dromozoa/commons/json_parser.lua";
     ["dromozoa.commons.loadstring"] = "dromozoa/commons/loadstring.lua";
-    ["dromozoa.commons.matcher"] = "dromozoa/commons/matcher.lua";
     ["dromozoa.commons.keys"] = "dromozoa/commons/keys.lua";
     ["dromozoa.commons.linked_hash_table"] = "dromozoa/commons/linked_hash_table.lua";
     ["dromozoa.commons.murmur_hash3"] = "dromozoa/commons/murmur_hash3.lua";
@@ -51,6 +50,7 @@ build = {
     ["dromozoa.commons.sequence"] = "dromozoa/commons/sequence.lua";
     ["dromozoa.commons.sequence_writer"] = "dromozoa/commons/sequence_writer.lua";
     ["dromozoa.commons.set"] = "dromozoa/commons/set.lua";
+    ["dromozoa.commons.sha256"] = "dromozoa/commons/sha256.lua";
     ["dromozoa.commons.shell"] = "dromozoa/commons/shell.lua";
     ["dromozoa.commons.split"] = "dromozoa/commons/split.lua";
     ["dromozoa.commons.string_matcher"] = "dromozoa/commons/string_matcher.lua";
@@ -62,6 +62,7 @@ build = {
     ["dromozoa.commons.utf8"] = "dromozoa/commons/utf8.lua";
     ["dromozoa.commons.values"] = "dromozoa/commons/values.lua";
     ["dromozoa.commons.visit"] = "dromozoa/commons/visit.lua";
+    ["dromozoa.commons.word_block"] = "dromozoa/commons/word_block.lua";
     ["dromozoa.commons.write_file"] = "dromozoa/commons/write_file.lua";
     ["dromozoa.commons.xml"] = "dromozoa/commons/xml.lua";
   };
