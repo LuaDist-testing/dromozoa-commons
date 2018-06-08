@@ -1,16 +1,16 @@
 -- This file was automatically generated for the LuaDist project.
 
 package = "dromozoa-commons"
-version = "1.56-1"
+version = "1.57-1"
 -- LuaDist source
 source = {
-  tag = "1.56-1",
+  tag = "1.57-1",
   url = "git://github.com/LuaDist-testing/dromozoa-commons.git"
 }
 -- Original source
 -- source = {
---   url = "https://github.com/dromozoa/dromozoa-commons/archive/v1.56.tar.gz";
---   file = "dromozoa-commons-1.56.tar.gz";
+--   url = "https://github.com/dromozoa/dromozoa-commons/archive/v1.57.tar.gz";
+--   file = "dromozoa-commons-1.57.tar.gz";
 -- }
 description = {
   summary = "Reusable Lua components";
@@ -27,6 +27,11 @@ build = {
     ["dromozoa.commons.basename"] = "dromozoa/commons/basename.lua";
     ["dromozoa.commons.bitset"] = "dromozoa/commons/bitset.lua";
     ["dromozoa.commons.clone"] = "dromozoa/commons/clone.lua";
+    ["dromozoa.commons.crypt"] = "dromozoa/commons/crypt.lua";
+    ["dromozoa.commons.crypt_apache_md5"] = "dromozoa/commons/crypt_apache_md5.lua";
+    ["dromozoa.commons.crypt_apache_sha1"] = "dromozoa/commons/crypt_apache_sha1.lua";
+    ["dromozoa.commons.crypt_base64"] = "dromozoa/commons/crypt_base64.lua";
+    ["dromozoa.commons.crypt_sha256"] = "dromozoa/commons/crypt_sha256.lua";
     ["dromozoa.commons.copy"] = "dromozoa/commons/copy.lua";
     ["dromozoa.commons.dirname"] = "dromozoa/commons/dirname.lua";
     ["dromozoa.commons.double"] = "dromozoa/commons/double.lua";
@@ -35,6 +40,7 @@ build = {
     ["dromozoa.commons.empty"] = "dromozoa/commons/empty.lua";
     ["dromozoa.commons.equal"] = "dromozoa/commons/equal.lua";
     ["dromozoa.commons.getmetafield"] = "dromozoa/commons/getmetafield.lua";
+    ["dromozoa.commons.hash"] = "dromozoa/commons/hash.lua";
     ["dromozoa.commons.hash_table"] = "dromozoa/commons/hash_table.lua";
     ["dromozoa.commons.hash_table_impl"] = "dromozoa/commons/hash_table_impl.lua";
     ["dromozoa.commons.hash_table_pair"] = "dromozoa/commons/hash_table_pair.lua";
