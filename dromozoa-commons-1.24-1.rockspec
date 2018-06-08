@@ -1,16 +1,16 @@
 -- This file was automatically generated for the LuaDist project.
 
 package = "dromozoa-commons"
-version = "1.23-1"
+version = "1.24-1"
 -- LuaDist source
 source = {
-  tag = "1.23-1",
+  tag = "1.24-1",
   url = "git://github.com/LuaDist-testing/dromozoa-commons.git"
 }
 -- Original source
 -- source = {
---   url = "https://github.com/dromozoa/dromozoa-commons/archive/v1.23.tar.gz";
---   file = "dromozoa-commons-1.23.tar.gz";
+--   url = "https://github.com/dromozoa/dromozoa-commons/archive/v1.24.tar.gz";
+--   file = "dromozoa-commons-1.24.tar.gz";
 -- }
 description = {
   summary = "Reusable Lua components";
@@ -33,6 +33,7 @@ build = {
     ["dromozoa.commons.hash_table_pair"] = "dromozoa/commons/hash_table_pair.lua";
     ["dromozoa.commons.ipairs"] = "dromozoa/commons/ipairs.lua";
     ["dromozoa.commons.json"] = "dromozoa/commons/json.lua";
+    ["dromozoa.commons.keys"] = "dromozoa/commons/keys.lua";
     ["dromozoa.commons.linked_hash_table"] = "dromozoa/commons/linked_hash_table.lua";
     ["dromozoa.commons.matcher"] = "dromozoa/commons/matcher.lua";
     ["dromozoa.commons.murmur_hash3"] = "dromozoa/commons/murmur_hash3.lua";
@@ -48,6 +49,7 @@ build = {
     ["dromozoa.commons.uint32"] = "dromozoa/commons/uint32.lua";
     ["dromozoa.commons.uint64"] = "dromozoa/commons/uint64.lua";
     ["dromozoa.commons.unpack"] = "dromozoa/commons/unpack.lua";
+    ["dromozoa.commons.values"] = "dromozoa/commons/values.lua";
     ["dromozoa.commons.visit"] = "dromozoa/commons/visit.lua";
     ["dromozoa.commons.xml"] = "dromozoa/commons/xml.lua";
   };
