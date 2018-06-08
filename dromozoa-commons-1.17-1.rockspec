@@ -1,16 +1,16 @@
 -- This file was automatically generated for the LuaDist project.
 
 package = "dromozoa-commons"
-version = "1.16-1"
+version = "1.17-1"
 -- LuaDist source
 source = {
-  tag = "1.16-1",
+  tag = "1.17-1",
   url = "git://github.com/LuaDist-testing/dromozoa-commons.git"
 }
 -- Original source
 -- source = {
---   url = "https://github.com/dromozoa/dromozoa-commons/archive/v1.16.tar.gz";
---   file = "dromozoa-commons-1.16.tar.gz";
+--   url = "https://github.com/dromozoa/dromozoa-commons/archive/v1.17.tar.gz";
+--   file = "dromozoa-commons-1.17.tar.gz";
 -- }
 description = {
   summary = "Reusable Lua components";
@@ -33,6 +33,7 @@ build = {
     ["dromozoa.commons.ipairs"] = "dromozoa/commons/ipairs.lua";
     ["dromozoa.commons.json"] = "dromozoa/commons/json.lua";
     ["dromozoa.commons.linked_hash_table"] = "dromozoa/commons/linked_hash_table.lua";
+    ["dromozoa.commons.matcher"] = "dromozoa/commons/matcher.lua";
     ["dromozoa.commons.murmur_hash3"] = "dromozoa/commons/murmur_hash3.lua";
     ["dromozoa.commons.pairs"] = "dromozoa/commons/pairs.lua";
     ["dromozoa.commons.property_map"] = "dromozoa/commons/property_map.lua";
