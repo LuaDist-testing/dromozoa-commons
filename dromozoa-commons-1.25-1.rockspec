@@ -1,16 +1,16 @@
 -- This file was automatically generated for the LuaDist project.
 
 package = "dromozoa-commons"
-version = "1.24-1"
+version = "1.25-1"
 -- LuaDist source
 source = {
-  tag = "1.24-1",
+  tag = "1.25-1",
   url = "git://github.com/LuaDist-testing/dromozoa-commons.git"
 }
 -- Original source
 -- source = {
---   url = "https://github.com/dromozoa/dromozoa-commons/archive/v1.24.tar.gz";
---   file = "dromozoa-commons-1.24.tar.gz";
+--   url = "https://github.com/dromozoa/dromozoa-commons/archive/v1.25.tar.gz";
+--   file = "dromozoa-commons-1.25.tar.gz";
 -- }
 description = {
   summary = "Reusable Lua components";
